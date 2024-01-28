@@ -9,7 +9,7 @@ node connect.js sim
 elif [ "$1" = "não" ]; then
 node connect.js não
 else 
-node connect.js
+node connect.js não 
 fi
 sleep 1 
 printf "${BLUE}︎Programa fechado! Iniciando bot novamente...\n"
